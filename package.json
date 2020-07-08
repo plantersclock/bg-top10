@@ -11,7 +11,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./server/index.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && web: npm i react-scripts --save-dev && npm run build"
   },
   "engines": {
